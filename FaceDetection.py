@@ -10,7 +10,7 @@ if not os.path.isdir(path):
 (width,height) = (130,100)
 alg = "haarcascade_frontalface_default.xml"
 haar_cascade = cv2.CascadeClassifier(alg)
-cam = cv2.VideoCapture(2)
+cam = cv2.VideoCapture(0)
 
 count = 1
 while count < 31:
